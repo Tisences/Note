@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="title_text" format="string" />
+    <attr name="title_textColor" format="color" />
+    <attr name="title_textSize" format="dimension" />
+    <declare-styleable name="CustomTitleView">
+        <attr name="title_text" />
+        <attr name="title_textColor" />
+        <attr name="title_textSize" />
+    </declare-styleable>
+    <declare-styleable name="VideoView">
+        <attr name="image" format="reference"/>
+        <attr name="duration" format="integer" />
+        <attr name="size" format="integer"/>
+        <attr name="playSrc" format="reference"/>
+    </declare-styleable>
+</resources>

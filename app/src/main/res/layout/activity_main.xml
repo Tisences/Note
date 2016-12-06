@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tisen.note.MainActivity">
+
+    <com.tisen.note.view.ProgressImageView
+        android:id="@+id/image"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+    <SeekBar
+        android:layout_below="@id/image"
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+</RelativeLayout>
